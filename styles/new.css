@@ -6,24 +6,63 @@
 
 .banner {
     background-image: url('../resources/Banner.png');
-    height: 100vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-position: top center;
     margin-top: 50px;
 }
 
-.banner-des{
+.banner-des {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
-.banner-title{
+
+.banner-title {
     padding-top: 200px;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
+}
+
+/* discount */
+.discount {
+    text-align: center;
+    margin: 80px 399px;
+}
+
+.discount-65 {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.discount-title {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.discount-des {
+    color: #070211;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
 }
