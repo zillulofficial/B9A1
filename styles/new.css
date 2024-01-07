@@ -32,7 +32,7 @@
 /* discount */
 .discount {
     text-align: center;
-    margin: 80px 399px;
+    margin: 80px;
 }
 
 .discount-65 {
@@ -65,4 +65,40 @@
     font-style: normal;
     font-weight: 700;
     margin-bottom: 48px;
+}
+/* midnight styles */
+.midnight{
+    background-image: url('../resources/Vectorrr.png');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 120px;
+}
+.midnight-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midnight-content-column{
+    padding: 126px;
+}
+.midnight-content-title{
+    color: #FFF;
+    width: 642px;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.midnight-content-des{
+    color: rgba(255, 255, 255, 0.80);
+    width: 697px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.midnight-image{
+    padding-top: 67px;
+    padding-right: 138px;
 }
