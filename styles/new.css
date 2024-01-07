@@ -219,3 +219,47 @@
     border-radius: 463px;
     border: 10px solid #FF0000;
 }
+/* git part */
+.gift{
+    width: 80%;
+    margin: 120px auto;
+}
+.gift-title{
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.gift-add{
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.gift-des{
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.gift-container{
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    margin-bottom: 125px;
+}
+.gift-images{
+    width: 100% auto;
+}
+.gift-images img{
+    transition: all 0.3s ease;
+}
+.gift-container :hover img{
+    transform: scale(1.1);
+}
