@@ -66,23 +66,27 @@
     font-weight: 700;
     margin-bottom: 48px;
 }
+
 /* midnight styles */
-.midnight{
+.midnight {
     background-image: url('../resources/Vectorrr.png');
     height: 70vh;
     background-repeat: no-repeat;
     background-position: top center;
     margin-top: 120px;
 }
-.midnight-content{
+
+.midnight-content {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.midnight-content-column{
+
+.midnight-content-column {
     padding: 126px;
 }
-.midnight-content-title{
+
+.midnight-content-title {
     color: #FFF;
     width: 642px;
     font-family: Merriweather;
@@ -90,7 +94,8 @@
     font-weight: 900;
     margin-bottom: 24px;
 }
-.midnight-content-des{
+
+.midnight-content-des {
     color: rgba(255, 255, 255, 0.80);
     width: 697px;
     font-family: Inter;
@@ -98,7 +103,52 @@
     font-weight: 400;
     margin-bottom: 48px;
 }
-.midnight-image{
+
+.midnight-image {
     padding-top: 67px;
     padding-right: 138px;
+}
+
+/* address style */
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 60px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.add-title {
+
+    padding-top: 100px;
+}
+
+.adderss-title {
+    text-align: center;
+    line-height: 2em;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.add-btn {
+    padding-bottom: 100px;
+}
+
+.address-btn {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border: none;
 }
