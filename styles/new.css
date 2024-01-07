@@ -184,6 +184,7 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .offer-column-title2 {
@@ -192,6 +193,7 @@
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .offer-column-subtitle {
@@ -200,6 +202,7 @@
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 22px;
 }
 
 .offer-column-des {
@@ -209,6 +212,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 43px;
 }
 .offer-img{
     padding: 25px;
