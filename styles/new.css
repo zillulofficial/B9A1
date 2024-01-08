@@ -130,7 +130,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
     margin: 60px auto;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
@@ -170,14 +170,12 @@
 
 /* offer styles */
 .offer {
-    width: 80%;
+    width: 70%;
     margin: 120px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.offer-column {}
 
 .offer-column-title {
     color: #F00;
@@ -214,17 +212,20 @@
     font-weight: 400;
     margin-bottom: 43px;
 }
-.offer-img{
+
+.offer-img {
     padding: 25px;
     border-radius: 463px;
     border: 10px solid #FF0000;
 }
+
 /* git part */
-.gift{
-    width: 80%;
+.gift {
+    width: 70%;
     margin: 120px auto;
 }
-.gift-title{
+
+.gift-title {
     color: #F00;
 
     font-family: Inter;
@@ -232,7 +233,8 @@
     font-weight: 500;
     margin-bottom: 16px;
 }
-.gift-add{
+
+.gift-add {
     color: #070211;
 
     font-family: Merriweather;
@@ -240,7 +242,8 @@
     font-weight: 900;
     margin-bottom: 22px;
 }
-.gift-des{
+
+.gift-des {
     color: rgba(7, 2, 17, 0.60);
     width: 896px;
     font-family: Inter;
@@ -248,18 +251,84 @@
     font-weight: 400;
     margin-bottom: 48px;
 }
-.gift-container{
+
+.gift-container {
     display: flex;
     justify-content: center;
-    gap: 125px;
-    margin-bottom: 125px;
+    gap: 32px;
+    margin-bottom: 32px;
 }
-.gift-images{
+
+.gift-images {
     width: 100% auto;
 }
-.gift-images img{
+
+.gift-images img {
     transition: all 0.3s ease;
 }
-.gift-container :hover img{
+
+.gift-container :hover img {
     transform: scale(1.1);
+}
+
+/* subscribe style */
+.subscribe {
+    width: 70%;
+    margin: 120px auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 212px;
+}
+
+.subscribe-flex {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 0;
+    margin-bottom: 40px;
+}
+
+.subscribe-title {
+    color: #070211;
+    margin-top: 40px;
+    margin-bottom: 22px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe-des {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.subscribe-input {
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 267px 25px 30px;
+}
+
+.subscribe-btn {
+    border: none;
+    background: #F00;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
 }
