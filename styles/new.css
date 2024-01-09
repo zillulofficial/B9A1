@@ -218,8 +218,74 @@
     border-radius: 463px;
     border: 10px solid #FF0000;
 }
+/* holiday style */
+.holiday{
+    width: 70%;
+    margin: 120px auto;
+}
+.holiday-title{
+    margin-top: 50px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.holiday-title2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.holiday-des{
+    color: rgba(7, 2, 17, 0.60);
+    width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.holiday-image{
+    width: 70%;
+    margin: 120px auto;
+    background-image: url('../resources/Rectangle 1.png');
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: right;
+    margin-bottom: 0;
+}
 
-/* git part */
+.offers{
+    position: relative;
+    top: 70px;
+    left: 750px;
+
+}
+.holiday-image2{
+    width: 70%;
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-left: 298px;
+    margin-right: auto;
+
+}
+.offer2{
+    position: relative;
+    top: -420px;
+    right: 50px;
+
+}
+
+/* gift part */
 .gift {
     width: 70%;
     margin: 120px auto;
